@@ -77,7 +77,7 @@ respuesta.addEventListener("keydown", function(event) {
     if (event.key == "Enter") {
         valor_ingresado = respuesta.value
         if(valor_ingresado == numeroUno * numeroDos) {
-            mensaje.style.color = "light-green"
+            mensaje.style.color = "lightgreen"
             mensaje.innerHTML = respuestasCorrectas[Math.floor(Math.random() * respuestasCorrectas.length)];
         } else {
             mensaje.style.color = "red"
